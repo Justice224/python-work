@@ -8,7 +8,7 @@ def fig():
 fig()
 
 def pypart():
-    a = [1,2,3,4,5,6,5,4,3,2,1]
+    a = [1,2,3,4,3,2,1]
     for elements in a:
         if elements == max(a):
             print(elements* "*")
